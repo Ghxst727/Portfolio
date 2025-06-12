@@ -1,0 +1,13 @@
+{
+  "name": "Form Test Project",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode", // Prettier/Prettify
+        "ms-vsliveshare.vsliveshare", // Live Share
+        "ms-vscode.live-server" // Live Preview
+      ]
+    }
+  }
+}
