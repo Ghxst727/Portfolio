@@ -21,6 +21,31 @@
     line-height: 1.6;
     overflow-x: hidden;
   }
+
+  .attribution {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 0.75rem;
+  color: #808080;
+  z-index: 10;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.attribution:hover {
+  opacity: 1;
+}
+
+.attribution-link {
+  color: #b0b0b0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.attribution-link:hover {
+  color: #ff6b6b;
+}
   
   .container {
     max-width: 1200px;
@@ -237,6 +262,14 @@
       font-size: 0.625rem;
       padding: 0.125rem 0.5rem;
     }
+
+    .attribution {
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
   }
   
   .name {
