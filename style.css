@@ -25,8 +25,8 @@
   .attribution {
   position: absolute;
   top: 1rem;
-  text-align: center;
-  font-size: 2rem;
+  right:1rem;
+  font-size: 1.25rem;
   color: #808080;
   z-index: 10;
   opacity: 0.8;
